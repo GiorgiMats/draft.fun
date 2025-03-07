@@ -1,0 +1,34 @@
+.footer-leftside {
+    display: grid;
+    grid-gap: 12px;
+    align-content: start;
+}
+
+.footer-nav {
+    display: grid;
+    grid-gap: 32px;
+    align-content: start;
+}
+
+.footer-nav nav {
+    display: grid;
+    grid-gap: 24px;
+    align-content: start;
+}
+
+.section-footer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 1fr;
+    grid-gap: 120px;
+    justify-content: space-between;
+    padding-bottom: 52px;
+}
+
+.footer-rightside {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-content: start;
+    grid-gap: 32px;
+}

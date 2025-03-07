@@ -1,0 +1,84 @@
+.section-roadmap {
+    background-color: #0E0D0F;
+    padding: 80px 0 120px 0;
+    height: 900px;
+}
+
+.roadmap-main {
+    margin-top: 52px;
+    padding: 277px 320px;
+    position: relative;
+    background-image: url('../images/purple-line.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.roadmap-main-inside {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 28px 28px 28px 28px;
+    grid-gap: 52px;
+    justify-content: space-between;
+    max-width: 799px;
+    margin: auto;
+}
+
+.roadmap-quarter-container {
+    position: relative;
+}
+
+.roadmap-item {
+    position: absolute;
+    width: max-content;
+    max-width: 440px;
+    padding: 24px;
+    background-color: var(--main-black);
+    border-radius: 12px;
+    border: 1px solid rgba(128, 2, 255, 0.20);
+    display: grid;
+    grid-gap: 24px;
+}
+
+.ri-checkmarks-nav {
+    display: grid;
+    grid-gap: 16px;
+    align-content: start;
+}
+
+.ri-checkmarks-nav li {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 12px;
+    align-items: start;
+}
+
+.rmi1 {
+    bottom: 100%;
+    left: -200px;
+}
+
+.rmi2 {
+    top: 100%;
+    right: -150px;
+}
+
+.rmi3 {
+    bottom: 100%;
+    left: -150px;
+}
+
+.rmi4 {
+    top: 100%;
+    right: -200px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .roadmap-main-inside {
+        max-width: 1200px;
+    }
+
+    .roadmap-main {
+        padding-left: 230px;
+        padding-right: 230px;
+    }
+}

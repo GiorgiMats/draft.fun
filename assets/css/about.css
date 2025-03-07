@@ -1,0 +1,15 @@
+.section-about {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 32px;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 80px;
+}
+
+.about-leftside {
+    max-width: 520px;
+    display: grid;
+    grid-gap: 24px;
+    align-content: center;
+}

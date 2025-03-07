@@ -1,0 +1,66 @@
+.section-carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.carousel-rightside {
+    max-width: 520px;
+    display: grid;
+    align-content: space-between;
+}
+
+.carousel-item {
+    display: grid;
+    grid-auto-flow: column;
+    border-bottom: 1px solid var(--mwhite-10);
+    padding: 24px 0;
+    grid-template-columns: 1fr auto;
+    cursor: pointer;
+}
+
+.carousel-item svg {
+    display: none;
+}
+
+.carousel-item-selected .--h4 {
+    color: var(--main-white) !important;
+}
+
+.carousel-item-selected svg {
+    display: block;
+}
+
+.carousel-item:hover .--h4 {
+    color: var(--main-white) !important;
+}
+
+.carousel-item:hover svg {
+    display: block;
+}
+
+.carousel-leftside {
+    display: grid;
+    grid-gap: 32px;
+    align-content: start;
+}
+
+.carousel-leftside {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-leftside-texts-container {
+    display: grid;
+    align-content: start;
+    grid-gap: 16px;
+}
+
+.section-carousel-button-container {
+    display: grid;
+    justify-content: center;
+    padding-top: 52px;
+}

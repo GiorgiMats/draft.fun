@@ -1,0 +1,32 @@
+.section-follow-us {
+    display: grid;
+    grid-gap: 32px;
+    align-content: start;
+    padding-bottom: 68px;
+}
+
+.section-follow-us .--p3 {
+    max-width: 792px;
+    margin: auto;
+}
+
+.socials-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 16px;
+    justify-content: center;
+}
+
+.social-item {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    width: 56px;
+    height: 56px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-item:hover {
+    background-color: rgba(255, 255, 255, 0.10);
+}

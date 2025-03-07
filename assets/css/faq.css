@@ -1,0 +1,52 @@
+.section-faq {
+    padding-top: 80px;
+    display: grid;
+    grid-gap: 52px;
+}
+
+.accordion {
+    background-color: #0E0D0F;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 24px 40px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #0E0D0F;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: var(--main-white);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 40px;
+    background-color: #0E0D0F;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+    padding-bottom: 32px;
+}
+
+.faqs-container {
+    display: grid;
+    align-content: start;
+    grid-gap: 24px;
+}

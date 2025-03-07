@@ -1,0 +1,56 @@
+.perks-leftside {
+    display: grid;
+    grid-gap: 24px;
+    max-width: 520px;
+    align-content: start;
+    position: sticky;
+    top: 124px;
+}
+
+.section-perks {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    grid-gap: 32px;
+}
+
+.perks-rightside {
+    display: grid;
+    grid-gap: 64px;
+}
+
+.perks-item {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 32px;
+    justify-content: start;
+}
+
+.perks-item .perks-item-image-container img {
+    width: 64px;
+    height: auto;
+}
+
+.perks-item-text-container {
+    display: grid;
+    grid-gap: 16px;
+    justify-content: start;
+    align-content: start;
+}
+
+.perks-leftside-texts-container {
+    display: grid;
+    grid-gap: 16px;
+}
+
+.perks-leftside .--h2 {
+    position: relative;
+}
+
+.perks-leftside .--h2 .label {
+    display: block;
+    position: absolute;
+    bottom: 11px;
+    right: 13%;
+}
