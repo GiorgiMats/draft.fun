@@ -198,6 +198,7 @@ body {
     font-weight: 500;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    justify-content: center;
 }
 
 .btn-primary-big button {
@@ -298,8 +299,142 @@ body {
     justify-self: start;
 }
 
+@media only screen and (max-width: 1236px) {
+    .--h1 {
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 58px;
+        /* 111.538% */
+        letter-spacing: -2.08px;
+    }
+
+    .--h2 {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -1.28px;
+    }
+
+    .--h3 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.96px;
+    }
+
+    .--h4 {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.72px;
+    }
+
+    .--h5 {
+        font-size: 18px;
+        font-style: normal;
+        /* font-weight: 400; */
+        line-height: normal;
+        letter-spacing: -0.72px;
+    }
+
+    .--p1 {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.64px;
+    }
+
+    .--p2 {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+    }
+
+    .--p3 {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (max-width: 548px) {
+    .--h1 {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -1.28px;
+    }
+
+    .--h2 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.96px;
+    }
+
+    .--h3 {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.72px;
+    }
+
+    .--h4 {
+        font-size: 18px;
+        font-style: normal;
+        /* font-weight: 400; */
+        line-height: normal;
+        letter-spacing: -0.72px;
+    }
+
+    .--h5 {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.64px;
+    }
+
+    .--p1 {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+    }
+
+    .--p2 {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     .container {
-        padding: 0 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media only screen and (max-width: 548px) {
+    .space-52-between {
+        padding-top: 52px;
+        padding-bottom: 52px;
+    }
+
+    .space-120-between {
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
 }

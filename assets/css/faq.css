@@ -50,3 +50,14 @@
     align-content: start;
     grid-gap: 24px;
 }
+
+@media only screen and (max-width: 548px) {
+    .section-faq {
+        padding-top: 52px;
+        grid-gap: 24px;
+    }
+
+    .faqs-container {
+        grid-gap: 8px;
+    }
+}

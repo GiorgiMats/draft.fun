@@ -170,6 +170,22 @@
     }
 }
 
+@media only screen and (max-width: 950px) {
+    .section-hero {
+        grid-auto-flow: row;
+        grid-template-columns: unset;
+        justify-content: center;
+    }
+
+    .hero-rightside {
+        order: 1;
+    }
+
+    .hero-leftside {
+        order: 2;
+    }
+}
+
 @media only screen and (max-width: 832px) {
     .hamburger-menu {
         display: block;
@@ -187,5 +203,29 @@
     .main-logo svg {
         width: 116px;
         height: auto;
+    }
+}
+
+@media only screen and (max-width: 548px) {
+    .section-hero {
+        padding-top: 32px;
+        padding-bottom: 80px;
+        grid-gap: 12px;
+    }
+
+    .hero-leftside {
+        grid-gap: 12px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .hero-leftside-buttons-container {
+        grid-auto-flow: row;
+        justify-content: stretch;
+    }
+
+    .hero-leftside-buttons-container a,
+    .hero-leftside-buttons-container a button {
+        width: 100%;
     }
 }

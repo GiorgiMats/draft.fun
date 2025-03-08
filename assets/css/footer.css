@@ -36,3 +36,24 @@
 .footer-nav li a:hover {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 980px) {
+    .section-footer {
+        grid-gap: 52px;
+    }
+}
+
+@media only screen and (max-width: 874px) {
+    .section-footer {
+        grid-template-columns: unset;
+        grid-auto-flow: row;
+        width: 100%;
+        justify-content: stretch;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .footer-rightside {
+        grid-auto-flow: row;
+    }
+}

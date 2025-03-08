@@ -30,3 +30,12 @@
 .social-item:hover {
     background-color: rgba(255, 255, 255, 0.10);
 }
+
+@media only screen and (max-width: 420px) {
+    .socials-container {
+        grid-auto-flow: row;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+    }
+}

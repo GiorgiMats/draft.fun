@@ -72,6 +72,18 @@
     right: -200px;
 }
 
+.roadmap-main-mobile {
+    display: none;
+    grid-gap: 16px;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.ri-mobile {
+    position: unset !important;
+    width: auto;
+}
+
 @media only screen and (max-width: 1300px) {
     .roadmap-main-inside {
         max-width: 1200px;
@@ -80,5 +92,20 @@
     .roadmap-main {
         padding-left: 230px;
         padding-right: 230px;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    .roadmap-main-mobile {
+        display: grid;
+    }
+
+    .roadmap-main {
+        display: none;
+    }
+
+    .section-roadmap {
+        height: auto;
+        padding: 52px 0 52px 0;
     }
 }

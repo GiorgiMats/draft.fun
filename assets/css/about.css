@@ -13,3 +13,22 @@
     grid-gap: 24px;
     align-content: center;
 }
+
+@media only screen and (max-width: 1236px) {
+    .about-rightside img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .section-about {
+        grid-auto-flow: row;
+        grid-template-columns: unset;
+        justify-content: center;
+    }
+
+    .about-leftside {
+        order: 2;
+    }
+}
