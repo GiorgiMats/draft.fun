@@ -32,3 +32,7 @@
     align-content: start;
     grid-gap: 32px;
 }
+
+.footer-nav li a:hover {
+    text-decoration: underline;
+}
